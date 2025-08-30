@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Remote-server-Monitoring-and-Alert
-=======
 ## Overview
 This project monitors the health of remote servers by checking **disk usage**, **memory utilization**, and **system load**. It automatically sends **email alerts** when thresholds are exceeded. The system supports **multiple remote hosts**, SSH-based checks, and a **TEST_MODE** for simulation/testing without real servers.
 
@@ -28,4 +26,3 @@ Run in test mode (no SSH required):
 TEST_MODE=1 python3 monitor.py
 
 
->>>>>>> 1e303ac (Initial commit)
