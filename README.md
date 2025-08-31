@@ -11,18 +11,11 @@ This project monitors the health of remote servers by checking **disk usage**, *
 
 ## Installation
 
-1. Clone the repository:
-git clone https://github.com/yourusername/remote-monitor.git
-cd remote-monitor
-
-2. Install required Python libraries:
-pip install -r requirements.txt
-
-
-Run the script normally (real SSH connections):
-python3 monitor.py
-
-Run in test mode (no SSH required):
+1. Clone the repository
+2. Create Virtual Environment  
+3. Install required Python libraries  
+3.Run in test mode (no SSH required):
 TEST_MODE=1 python3 monitor.py
+
 
 
