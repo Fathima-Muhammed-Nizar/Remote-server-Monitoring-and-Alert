@@ -2,9 +2,6 @@
 Usage:
   python3 monitor.py            
   TEST_MODE=1 python3 monitor.py (no SSH required)
-
-Make sure to set EMAIL_* env vars or edit the constants below for testing.
-"""
 '''
 import os
 import json
